@@ -1,11 +1,11 @@
 import { Inter } from "next/font/google";
-import "./globals.css";
+import "./globals.scss";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Vdesh",
-  description: "Where dream starts",
+  description: "Live Your Dream",
 };
 
 export default function RootLayout({ children }) {

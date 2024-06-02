@@ -1,0 +1,21 @@
+/* imports css for global set up */
+@import "./reset.scss";
+@import "./typography.scss";
+@import "./variable.scss";
+@import "./elements.scss";
+@import "./utilities.scss";
+
+
+/* imports all css (component-level) */
+//Header CSS 
+@import "./Header/Header.scss";
+@import "./Header/TopHeader.scss";
+@import "./Header/HeaderMain.scss";
+
+/* tailwind imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+

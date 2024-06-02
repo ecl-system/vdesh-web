@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .app_main {
+        .header_section_main {
+            .header {
+                @apply h-[70.25px] w-full;
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html, body {
+        @apply font-normal text-[18px] font-inter;
+    }
+
+    p {
+        @apply font-normal text-sm font-inter;
+    }
+
+    h1 {
+        @apply font-semibold text-[69px] leading-[1.4px] font-besely;
+    }
+
+    h2 {
+        @apply font-medium text-[55px] leading-[1.4px] font-besely;
+    }
+
+    h3 {
+        @apply font-medium text-[44px] leading-[1.4px] font-besely;
+    }
+
+    h4 {
+        @apply font-normal text-[35px] leading-[1.4px] font-besely;
+    }
+
+    // subtitle-1
+    h5 {
+        @apply font-medium text-[28px] leading-[1.4px] font-inter;
+    }
+
+    // subtitle-2
+    h6 {
+        @apply font-normal text-[23px] leading-[1.4px]  font-inter;
+    }
+
+    button {
+        @apply font-semibold text-[16px] leading-[1.4px] font-inter;
+    }
+}
+

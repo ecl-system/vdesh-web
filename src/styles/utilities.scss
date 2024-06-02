@@ -1,0 +1,26 @@
+/* container horizontal padding */
+.container-sm {
+    @apply px-14;
+}
+
+.container-md {
+    @apply px-24;
+}
+
+.container-lg {
+    @apply px-36;
+}
+
+.container-xl {
+    @apply px-48;
+}
+
+.btn-gradient {
+    background: var(--btn-gradient-start);
+    background: linear-gradient(90deg, var(--btn-gradient-start) 35%, var(--btn-gradient-end) 100%);
+}
+
+.bg-gradient {
+    background: var(--bg-gradient-start);
+    background: linear-gradient(90deg, var(--bg-gradient-start) 0.05%, var(--bg-gradient-mid) 0.06%, var(--bg-gradient-end) 100%);
+}

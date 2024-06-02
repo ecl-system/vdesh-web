@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* all variables */
+@layer base {
+    :root {
+        /* button gradient */
+        --btn-gradient-start: #CA1F68;
+        --btn-gradient-end: #F9C04D;
+
+        /* header-bg-gradient */
+        --bg-gradient-start: #FCE7EE;
+        --bg-gradient-mid: #FCE7EE;
+        --bg-gradient-end: #FCF6E9;
+    }
+}
