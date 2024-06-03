@@ -1,3 +1,4 @@
+import Footer from "@/client/components/Footer/Footer";
 import HeaderMain from "@/client/components/Header/HeaderMain";
 
 
@@ -13,6 +14,7 @@ export default function Home() {
       {/* other components */}
       
       {/* footer */}
+      <Footer/>
     </main>
   );
 }

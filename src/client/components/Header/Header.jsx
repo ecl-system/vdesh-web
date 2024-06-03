@@ -1,5 +1,6 @@
 'use client'
 import { centralizeImages } from '@/client/utils/centralizeImages'
+import { toCapitalizeFirstLetterOfWord } from '@/client/utils/utilityFunctions'
 import { headerMenuItems } from '@/client/utils/utils'
 import Image from 'next/image'
 import React from 'react'
@@ -22,7 +23,8 @@ const Header = () => {
                     {headerMenuItems?.map((item) => (
                         <li>
                             {/* <span>{item?.icon}</span> */}
-                            {item?.content}
+                            
+                            {toCapitalizeFirstLetterOfWord(item?.content)}
                         </li>
                     ))}
                 </ul>

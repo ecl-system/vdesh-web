@@ -6,10 +6,14 @@
     .app_main {
         .header_section_main {
             .top_header {
-                @apply h-[70.25px] w-full border-b-2 border-b-[--border-header] flex justify-between items-center;
+                @apply h-[70.25px] w-full border-b-2 border-b-[--horizontal-border-header] flex justify-between items-center;
 
                 .top_left {
                     @apply flex justify-start items-center max-w-[355px];
+
+                    & > p {
+                        @apply text-sm;
+                    }
 
                     & > span {
                         @apply inline-block mr-[10px];

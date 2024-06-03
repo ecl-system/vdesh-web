@@ -1,5 +1,8 @@
+// react icon imports
 import { IoLocationOutline } from "react-icons/io5";
 import { RiWhatsappFill } from "react-icons/ri";
+import { MdArrowForwardIos } from "react-icons/md";
+import { FiArrowUpRight } from "react-icons/fi";
 
 //header svg-icon
 import StudyIcon from "@/../../public/assets/images/topHeader/studyIcon.svg";
@@ -12,7 +15,9 @@ import TestimonialIcon from "@/../../public/assets/images/topHeader/testimonialI
 
 export const icons = {
     locationPin: <IoLocationOutline  className="locationPinIcon"/>,
-    whatsApp: <RiWhatsappFill className="whatsAppIcon"/>
+    whatsApp: <RiWhatsappFill className="whatsAppIcon"/>,
+    rightArrow: <MdArrowForwardIos className="rightArrow"/>,
+    upRightArrow: <FiArrowUpRight className="upRightArrow"/>
     
 }
 

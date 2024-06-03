@@ -15,17 +15,14 @@ const TopHeader = () => {
 
             {/* top-right */}
             <div className="top_right">
-                <div className='whatsApp_block'>
+                <div className="whatsApp_block">
                     <a href={contactInfo?.whatsApp} target="_blank" rel="noopener noreferrer">
                         <span>{icons?.whatsApp}</span>
-                        <p className="mobileNumber">{contactInfo.mobileNumber}
-                        </p>
+                        <p className="mobileNumber">{contactInfo.mobileNumber}</p>
                     </a>
                 </div>
 
-                <SharedButton className="btn-gradient">
-                    Free Consultant
-                </SharedButton>
+                <SharedButton className="btn-gradient">Free Consultant</SharedButton>
             </div>
         </div>
     )

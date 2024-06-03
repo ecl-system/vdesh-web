@@ -9,7 +9,7 @@
     }
 
     p {
-        @apply font-normal text-sm font-inter;
+        @apply  text-[18px] font-inter leading-[30px] font-normal;
     }
 
     h1 {
@@ -21,11 +21,11 @@
     }
 
     h3 {
-        @apply font-medium text-[44px] leading-[1.4px] font-besely;
+        @apply font-medium text-[44px] leading-[45px] font-besely;
     }
 
     h4 {
-        @apply font-normal text-[35px] leading-[1.4px] font-besely;
+        @apply font-normal text-[35px] leading-[45px] font-besely;
     }
 
     // subtitle-1
@@ -35,7 +35,7 @@
 
     // subtitle-2
     h6 {
-        @apply font-normal text-[23px] leading-[1.4px]  font-inter;
+        @apply font-normal text-[25px] leading-[35px]  font-inter;
     }
 
     button {

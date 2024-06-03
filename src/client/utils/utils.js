@@ -32,3 +32,43 @@ export const headerMenuItems = [
         icon: topHeaderMenuItems?.testimonialIcon
     },
 ]
+
+export const footerMenuItems1 = [
+    {
+        id: 1,
+        content: 'study abroad'
+    },
+    {
+        id: 2,
+        content: 'work abroad'
+    },
+    {
+        id: 3,
+        content: 'treatment abroad'
+    },
+    {
+        id: 4,
+        content: 'visa consulting'
+    }
+
+]
+
+export const footerMenuItems2 = [
+    {
+        id: 1,
+        content: 'Latest news'
+    },
+    {
+        id: 2,
+        content: 'career'
+    },
+    {
+        id: 3,
+        content: 'about us'
+    },
+    {
+        id: 4,
+        content: 'testimonial'
+    }
+
+]
