@@ -15,12 +15,15 @@
     @apply px-48;
 }
 
+.sharedBtn {
+    @apply w-[147px] h-[47px] text-white cursor-pointer;
+}
+
 .btn-gradient {
-    background: var(--btn-gradient-start);
-    background: linear-gradient(90deg, var(--btn-gradient-start) 35%, var(--btn-gradient-end) 100%);
+    @apply bg-gradient-to-r from-[--btn-gradient-start] from-[10%] to-[--btn-gradient-end] to-[100%]
 }
 
 .bg-gradient {
-    background: var(--bg-gradient-start);
-    background: linear-gradient(90deg, var(--bg-gradient-start) 0.05%, var(--bg-gradient-mid) 0.06%, var(--bg-gradient-end) 100%);
+    @apply bg-gradient-to-r from-[--bg-gradient-start] from-[0.05%] via-[--bg-gradient-mid] via-[0.06%] to-[--bg-gradient-end] to-[100%];
 }
+

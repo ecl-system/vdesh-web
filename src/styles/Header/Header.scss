@@ -6,7 +6,36 @@
     .app_main {
         .header_section_main {
             .header {
-                @apply h-[70.25px] w-full;
+                @apply h-[70.25px] w-full flex justify-between items-center;
+
+                .vdesh_logoBlock {
+                    @apply relative w-[170px] h-[37.5px];
+
+                    & img {
+                        @apply w-full h-full;
+                    }
+                }
+
+                .menuItemsBlock {
+                    & ul {
+                        @apply flex justify-center items-center;
+                        & > li {
+                            @apply list-none no-underline px-4 py-1 hover:cursor-pointer;
+                        }
+
+                        & > li:not(:last-child) {
+                            @apply mr-[35px] ;
+                        }
+
+                        & > li:nth-last-child(n+3){
+                            @apply border-b-2 border-b-[--border-inactive] rounded-md;
+                        }
+
+                        & > li:first-child{
+                            @apply border-b-2 border-b-[--border-active] rounded-md;
+                        }
+                    }
+                }
             }
         }
     }

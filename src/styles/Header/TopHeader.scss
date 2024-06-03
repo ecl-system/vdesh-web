@@ -6,16 +6,16 @@
     .app_main {
         .header_section_main {
             .top_header {
-                @apply h-[70.25px] w-full border-b-2 flex justify-between items-center;
+                @apply h-[70.25px] w-full border-b-2 border-b-[--border-header] flex justify-between items-center;
 
                 .top_left {
                     @apply flex justify-start items-center max-w-[355px];
 
-                   & > span {
+                    & > span {
                         @apply inline-block mr-[10px];
                     }
 
-                   & > span .locationPinIcon {
+                    & > span .locationPinIcon {
                         @apply h-4 w-4;
                     }
                 }
@@ -42,9 +42,9 @@
                         }
                     }
 
-                    .btnBlock {
-                        @apply h-[47px] w-[175px] border text-white flex justify-center items-center cursor-pointer;
-                    }
+                    // .btnBlock {
+                    //     @apply h-[47px] w-[175px] border text-white flex justify-center items-center cursor-pointer;
+                    // }
                 }
             }
         }

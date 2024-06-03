@@ -1,6 +1,8 @@
+// 'use client'
 import { contactInfo } from '@/client/utils/contactInfo.util'
 import { icons } from '@/client/utils/index.util'
 import React from 'react'
+import SharedButton from '../shared/SharedButton'
 
 const TopHeader = () => {
     return (
@@ -21,9 +23,9 @@ const TopHeader = () => {
                     </a>
                 </div>
 
-                <div className='btnBlock btn-gradient'>
+                <SharedButton className="btn-gradient">
                     Free Consultant
-                </div>
+                </SharedButton>
             </div>
         </div>
     )
