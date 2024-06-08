@@ -73,7 +73,9 @@ const Footer = () => {
             </div>
 
             {/* last section */}
-            <div className="footer_bottomBlock"></div>
+            <div className="footer_bottomBlock container container-lg">
+                <p>Copyright &copy; 2024 by VDESH All Rights Reserved.</p>
+            </div>
         </section>
     )
 }

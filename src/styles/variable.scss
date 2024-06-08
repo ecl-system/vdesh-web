@@ -5,6 +5,12 @@
 /* all variables */
 @layer base {
     :root {
+
+
+        /* common-variables*/
+        --color-white: #FFFFFF;
+        --color-black: #000000;
+
         /* button gradient */
         --btn-gradient-start: #CA1F68;
         --btn-gradient-end: #F9C04D;
@@ -17,6 +23,41 @@
         --horizontal-border-header: #D4D4D4;
         --border-inactive: #CFCDCD;
         --border-active: #EE478F;
+
+        /* banner-main-variables */
+        --bg-gradient-start-banner-main: #FEF1F5;
+        --bg-gradient-mid-banner-main: #FEF4F5;
+        --bg-gradient-end-banner-main: #FEFAF4;
+
+        --bg-singleSegment1: #FFD280;
+        --bg-singleSegment2: #CBA6EB;
+        --bg-singleSegment3: #99C7EC;
+        --bg-singleSegment4: #9BC3BB;
+
+        --bg-singleSegment1-chidlSegment2: #FFA501;
+        --bg-singleSegment2-chidlSegment2: #7E2BCE;
+        --bg-singleSegment3-chidlSegment2: #0074CF;
+        --bg-singleSegment4-chidlSegment2: #055142;
+
+        /* study-abroad-variables */
+        --bg-row1-right-studyAbroad: #FFF8EB;
+        --bg-row2-left-studyAbroad: #FFA501;
+        --border-color-singleSegment-studyAbroad: #FFA501;
+
+        /* work-abroad-variables */
+        --bg-row1-left-workAbroad: #F0E5F9;
+        --bg-row2-right-workAbroad: #7E2BCE;
+        --border-color-singleSegment-workAbroad: #7E2BCE;
+
+        /* treatment-abroad */
+        --bg-row1-right-treatmentAbroad: #D6ECFF;
+        --bg-row2-left-treatmentAbroad: #0074CF;
+        --border-color-singleSegment-treatmentAbroad: #0074CF;
+
+        /* visaConsulting-variables */
+        --bg-row1-left-visaConsulting: #DAFEF7;
+        --bg-row2-right-visaConsulting: #065520;
+        --border-color-singleSegment-visaConsulting: #065520;
 
         /* footer-variables */
         --horizontal-border-footer: #737373;

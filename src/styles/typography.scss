@@ -9,23 +9,23 @@
     }
 
     p {
-        @apply  text-[18px] font-inter leading-[30px] font-normal;
+        @apply  text-[18px] font-inter leading-[25px] font-normal;
     }
 
     h1 {
-        @apply font-semibold text-[69px] leading-[1.4px] font-besely;
+        @apply font-semibold text-[69px] leading-[97px] font-besely not-italic tracking-[-0.015em];
     }
 
     h2 {
-        @apply font-medium text-[55px] leading-[1.4px] font-besely;
+        @apply font-medium text-[55px] leading-[77px] font-besely;
     }
 
     h3 {
-        @apply font-medium text-[44px] leading-[45px] font-besely;
+        @apply font-medium text-[44px] leading-[62px] font-besely;
     }
 
     h4 {
-        @apply font-normal text-[35px] leading-[45px] font-besely;
+        @apply font-normal text-[35px] leading-[49px] font-besely;
     }
 
     // subtitle-1

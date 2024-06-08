@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .app_main {
+        .banner_section_main {
+            h1 {
+                @apply w-[400px];
+            }
+
+            p {
+                @apply w-[555px];
+            }
+
+            .banner_leftBlock {
+                .whatToDo {
+                    & > p:first-child {
+                        @apply font-semibold;
+                    }
+
+                    & > p:last-child {
+                        @apply font-extralight;
+                    }
+                }
+            }
+            .banner_rightBlock {
+                .imageBlock {
+                    img {
+                        @apply w-full h-full;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@layer components {
+    .app_main {
+        .banner_section_main {
+            @apply w-full h-[825px] grid grid-cols-2;
+
+            .banner_leftBlock {
+                @apply space-y-10 pt-10;
+
+                .segmentBlock {
+                    @apply w-[570px] h-[160px] grid grid-cols-2 gap-7 place-content-between;
+
+                    .singleSegment {
+                        @apply w-[270px] h-[60px] relative cursor-pointer;
+
+                        .childSegment1 {
+                            @apply flex justify-start items-center pt-[15px] pl-[15px];
+                        }
+
+                        .childSegment2 {
+                            @apply w-[60px] h-[60px] absolute top-0 right-0 grid place-content-center;
+
+                            .upRightArrow {
+                                @apply w-[35px] h-[35px] text-white;
+                            }
+                        }
+
+                        &:nth-child(1) {
+                            @apply bg-[--bg-singleSegment1];
+
+                            .childSegment2 {
+                                @apply bg-[--bg-singleSegment1-chidlSegment2];
+                            }
+                        }
+
+                        &:nth-child(2) {
+                            @apply bg-[--bg-singleSegment2];
+
+                            .childSegment2 {
+                                @apply bg-[--bg-singleSegment2-chidlSegment2];
+                            }
+                        }
+
+                        &:nth-child(3) {
+                            @apply bg-[--bg-singleSegment3];
+
+                            .childSegment2 {
+                                @apply bg-[--bg-singleSegment3-chidlSegment2];
+                            }
+                        }
+
+                        &:nth-child(4) {
+                            @apply bg-[--bg-singleSegment4];
+
+                            .childSegment2 {
+                                @apply bg-[--bg-singleSegment4-chidlSegment2];
+                            }
+                        }
+                    }
+                }
+            }
+
+            .banner_rightBlock {
+                @apply grid place-items-center;
+
+                .imageBlock {
+                    @apply w-[570px] h-[720px] relative;
+                }
+            }
+        }
+    }
+}

@@ -65,7 +65,7 @@
 @layer components {
     .app_main {
         .footer_section_main {
-            @apply w-full h-[700px] mt-[30%];
+            @apply w-full h-[685px];
 
             .footer_topBlock {
                 @apply grid grid-cols-2 py-8 border-b-[--horizontal-border-footer] border-b-[1px];
@@ -103,7 +103,7 @@
             }
 
             .footer_bottomBlock {
-                @apply w-full h-[65px] bg-[--bg-footer-bottom];
+                @apply w-full h-[65px] bg-[--bg-footer-bottom] flex justify-start items-center;
             }
         }
     }

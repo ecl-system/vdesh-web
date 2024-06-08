@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .app_main {
+        .howVdeshDifferent_main_section {
+            @apply w-[970px] h-[948px] border mb-[150px];
+
+            & h2 {
+                @apply mb-10;
+            }
+        }
+    }
+}
+
+

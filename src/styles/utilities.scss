@@ -1,29 +1,36 @@
 /* container horizontal padding */
 .container-sm {
-    @apply px-14;
+    @apply px-20 mx-auto;
 }
 
 .container-md {
-    @apply px-24;
+    @apply px-32 mx-auto;
 }
 
 .container-lg {
-    @apply px-36;
+    @apply px-40 mx-auto;
 }
 
 .container-xl {
-    @apply px-48;
+    @apply px-48 mx-auto;
 }
 
 .sharedBtn {
-    @apply w-[147px] h-[47px] text-white cursor-pointer;
+    @apply w-[175px] h-[47px] cursor-pointer;
 }
 
 .btn-gradient {
     @apply bg-gradient-to-r from-[--btn-gradient-start] from-[10%] to-[--btn-gradient-end] to-[100%]
 }
 
+.btn-bg-horizontalSection {
+    @apply bg-[#CA2268];
+}
+
 .bg-gradient {
     @apply bg-gradient-to-r from-[--bg-gradient-start] from-[0.05%] via-[--bg-gradient-mid] via-[0.06%] to-[--bg-gradient-end] to-[100%];
 }
 
+.bg-gradient-banner-main {
+    @apply bg-gradient-to-r from-[--bg-gradient-start-banner-main] from-[0%] via-[--bg-gradient-mid-banner-main] via-[0.5%] to-[--bg-gradient-end-banner-main] to-[100%];
+}

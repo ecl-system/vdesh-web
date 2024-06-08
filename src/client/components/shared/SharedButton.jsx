@@ -5,6 +5,7 @@ import React from 'react'
 const SharedButton = ({
     children,
     className,
+    style,
     type = 'submit',
     disabled = false,
     onClick = () => {},
@@ -12,6 +13,7 @@ const SharedButton = ({
     return (
         <button
             className={`${className} sharedBtn`}
+            style={style}
             type={type}
             disabled={disabled}
             onClick={onClick}

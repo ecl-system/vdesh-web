@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .app_main {
+        .horizontalSection_main {
+            .bannerImageBlock {
+                .contentBlock {
+                    .flyIconBlock {
+                        & img {
+                            @apply w-full h-full;
+                        }
+                    }
+                    button {
+                        @apply mt-7 text-white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@layer components {
+    .app_main {
+        .horizontalSection_main {
+            @apply w-full h-[282px] mb-[150px];
+
+            .bannerImageBlock {
+                @apply relative w-full h-full;
+
+                .contentBlock {
+                    @apply max-w-[480px] h-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center flex-col;
+
+                    .flyIconBlock {
+                        @apply w-[75%] h-[80px] relative;
+                    }
+                }
+            }
+        }
+    }
+}

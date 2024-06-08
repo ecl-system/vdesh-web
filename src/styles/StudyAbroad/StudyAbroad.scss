@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .app_main {
+        .studyAbroad_main_section {
+            @apply w-full h-[993px] my-[150px] grid grid-cols-2;
+
+            .row1_height {
+                @apply h-[566px] relative;
+            }
+
+            .row2_height {
+                @apply h-[427px];
+            }
+
+            .row1_height.leftBlock {
+                & > img {
+                    @apply w-full h-full;
+                }
+            }
+
+            .row1_height.rightBlock {
+                @apply bg-[--bg-row1-right-studyAbroad] relative;
+
+                .titleBlock {
+                    @apply absolute top-0 left-0 w-[300px] h-[91px] flex justify-start items-center bg-[--color-white];
+
+                    & > p {
+                        @apply text-[14px] leading-[17px] tracking-[0.1em] pl-10;
+                    }
+                }
+
+                .contentBlock {
+                    @apply absolute top-[145px] pl-[30px];
+
+                    & h3 {
+                        @apply max-w-[450px];
+                    }
+
+                    & p {
+                        @apply max-w-[745px] mt-[20px] tracking-wide;
+                    }
+                }
+
+                .rightVisaArrow{
+                    @apply absolute bottom-[40px] pl-[30px] flex justify-center items-center cursor-pointer;
+
+                    .arrowRight {
+                        @apply w-5 h-5 ml-2;
+                    }
+                }
+            }
+
+            .row2_height.rightBlock {
+                @apply relative;
+                .quickLinkBlock {
+                    @apply w-[500px] h-full bg-[--bg-row2-left-studyAbroad] absolute right-0 top-0 pt-8;
+
+                    & > h4 {
+                        @apply text-[--color-white] pl-[20px];
+                    }
+
+                    & ul {
+                        @apply mt-5;
+                    }
+
+                    & ul > li {
+                        @apply list-none flex justify-start items-center pl-[20px] py-2 cursor-pointer;
+
+                        &:not(:last-child) {
+                            @apply border-b border-b-[--color-white];
+                        }
+
+                        & p {
+                            @apply text-[--color-white];
+                        }
+                        & span {
+                            @apply inline-block ml-[40px] text-[--color-white];
+
+                            svg.arrowRight {
+                                @apply w-[25px] h-[25px];
+                            }
+                        }
+                    }
+                }
+            }
+
+            .row2_height.leftBlock {
+                @apply flex justify-center items-center;
+
+                .segment_container {
+                    @apply w-[430px] h-[200px];
+                    .segmentsBlock {
+                        @apply grid grid-cols-2 place-content-around gap-5;
+
+                        .singleSegment {
+                            @apply w-[200px] h-[54px] border-2 border-[--border-color-singleSegment-studyAbroad] flex justify-center items-center cursor-pointer;
+                        }
+                    }
+
+                    .nextBtnBlock {
+                        @apply w-full h-[54px] mt-[20px] border-2 border-[--border-color-singleSegment-studyAbroad] flex justify-center items-center cursor-pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// background: #E5F6FD;
+// transform: matrix(-1, 0, 0, 1, 0, 0);
