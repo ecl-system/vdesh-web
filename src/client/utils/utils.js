@@ -1,4 +1,5 @@
-import { topHeaderMenuItems } from "./centralizeIcon.util";
+import { icons, topHeaderMenuItems } from "./centralizeIcon.util";
+import { centralizeImages } from "./centralizeImages";
 
 export const headerMenuItems = [
     {
@@ -36,18 +37,22 @@ export const headerMenuItems = [
 export const bannerMainMenuItems = [
     {
         id: 1,
+        icon: icons?.studyIcon,
         content: 'study abroad'
     },
     {
         id: 2,
+        icon: icons?.workIcon,
         content: 'work abroad'
     },
     {
         id: 3,
+        icon: icons?.treatmentIcon,
         content: 'treatment abroad'
     },
     {
         id: 4,
+        icon: icons?.visaIcon,
         content: 'visa consulting'
     }
 
@@ -146,7 +151,6 @@ export const whyChooseUsPoints = [
     },
 ]
 
-
 export const aboutCompanySegments = [
     {
         id: 1,
@@ -211,6 +215,26 @@ export const footerMenuItems2 = [
         id: 4,
         content: 'testimonial'
     }
+
+]
+
+export const blogsMenu = [
+    {
+        id: 1,
+        src: centralizeImages?.card1
+    },
+    {
+        id: 2,
+        src: centralizeImages?.card2
+    },
+    {
+        id: 3,
+        src: centralizeImages?.card3
+    },
+    {
+        id: 4,
+        src: centralizeImages?.card1
+    },
 
 ]
 

@@ -33,6 +33,9 @@
 // how-vdesh-different
 @import "./HowVdeshDifferent/HowVdeshDifferent.scss";
 
+// how-we-simplify
+@import "./HowWeSimplify/HowWeSimplify.scss";
+
 //client-success
 @import "./ClientSuccess/ClientSuccess.scss";
 
@@ -45,8 +48,16 @@
 // horizontal-section
 @import "./HorizontalSection/HorizontalSection.scss";
 
+
+// blogs
+@import "./Blogs/News/News.scss";
+
 //Footer CSS
 @import "./Footer/Footer.scss";
+
+
+// shared-component css
+@import "./shared/Card.scss";
 
 /* tailwind imports */
 @tailwind base;

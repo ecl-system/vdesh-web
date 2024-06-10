@@ -23,6 +23,14 @@
                         @apply font-extralight;
                     }
                 }
+
+                .singleSegment {
+                    .childSegment1 {
+                        p {
+                            @apply flex justify-start items-center;
+                        }
+                    }
+                }
             }
             .banner_rightBlock {
                 .imageBlock {
@@ -51,6 +59,10 @@
 
                         .childSegment1 {
                             @apply flex justify-start items-center pt-[15px] pl-[15px];
+
+                            .icon {
+                                @apply mr-2;
+                            }
                         }
 
                         .childSegment2 {

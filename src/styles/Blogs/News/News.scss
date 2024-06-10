@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .app_main {
+        .newsReport_main_section {
+            @apply mb-[150px];
+
+            .title_slider_Block {
+                @apply flex justify-between items-center;
+
+                .sliderArrow {
+                    @apply w-28 h-10 flex justify-between items-center;
+                    
+                    svg{
+                        @apply w-[40px] h-[40px];
+                    }
+                }
+            }
+
+            .news_card_container{
+                @apply mt-10 grid grid-cols-4 gap-4;
+            }
+        }
+    }
+}

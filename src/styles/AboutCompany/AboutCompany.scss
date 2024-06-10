@@ -17,7 +17,7 @@
                 .leftBlock {
                     @apply relative;
                     .imageBlock {
-                        @apply w-[470px] h-[651px] absolute right-0 bottom-0;
+                        @apply w-[550px] h-[650px] overflow-hidden absolute right-0 bottom-0;
                     }
                 }
 

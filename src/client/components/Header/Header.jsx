@@ -17,7 +17,7 @@ const Header = () => {
                 <ul>
                     {headerMenuItems?.map((item) => (
                         <li>
-                            {/* <span>{item?.icon}</span> */}
+                            <span className='icon'>{item?.icon}</span>
 
                             {toCapitalizeFirstLetterOfWord(item?.content)}
                         </li>

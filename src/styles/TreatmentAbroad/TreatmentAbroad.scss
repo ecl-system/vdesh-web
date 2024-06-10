@@ -28,7 +28,11 @@
                     @apply absolute top-0 left-0 w-[300px] h-[91px] flex justify-start items-center bg-[--color-white];
 
                     & > p {
-                        @apply text-[14px] leading-[17px] tracking-[0.1em] pl-10;
+                        @apply text-[14px] leading-[17px] tracking-[0.1em] pl-10 flex justify-start items-center;
+
+                        .icon {
+                            @apply mr-2;
+                        }
                     }
                 }
 

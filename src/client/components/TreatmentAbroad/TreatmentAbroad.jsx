@@ -13,7 +13,10 @@ const TreatmentAbroad = () => {
 
             <div className="row1_height rightBlock">
                 <div className="titleBlock">
-                    <p>Treatment Abroad</p>
+                    <p>
+                        <span className='icon'>{icons?.treatmentIcon}</span>
+                        Treatment Abroad
+                    </p>
                 </div>
 
                 <div className="contentBlock">

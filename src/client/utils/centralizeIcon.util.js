@@ -7,6 +7,12 @@ import { BsArrowRight } from "react-icons/bs";
 import { BiLike } from "react-icons/bi";
 import { BiDislike } from "react-icons/bi";
 import { FaRegCircleCheck } from "react-icons/fa6";
+import { FaStar } from "react-icons/fa";
+import { IoIosArrowRoundForward } from "react-icons/io";
+import { IoIosArrowRoundBack } from "react-icons/io";
+import { IoIosArrowDropright } from "react-icons/io";
+import { IoIosArrowDropleft } from "react-icons/io";
+import { IoIosInformationCircleOutline } from "react-icons/io";
 
 // svg-icon
 
@@ -15,8 +21,9 @@ import StudyIcon from "@/../../public/assets/images/topHeader/studyIcon.svg";
 import WorkIcon from "@/../../public/assets/images/topHeader/workIcon.svg";
 import TreatmentIcon from "@/../../public/assets/images/topHeader/treatmentIcon.svg";
 import VisaIcon from "@/../../public/assets/images/topHeader/visaIcon.svg";
-import AboutIcon from "@/../../public/assets/images/topHeader/aboutIcon.svg";
 import TestimonialIcon from "@/../../public/assets/images/topHeader/testimonialIcon.svg";
+
+import VdeshCircleLogo from "@/../../public/assets/images/icons/vdeshCircleLogo.svg";
 
 
 //about-company
@@ -34,7 +41,19 @@ export const icons = {
     circleCheck: <FaRegCircleCheck className="circleCheck"/>,
     like: <BiLike className="likeIcon"/>,
     dislike: <BiDislike className="dislikeIcon"/>,
-    passportIcon: <PassportIcon className="passportIcon"/>
+    passportIcon: <PassportIcon className="passportIcon"/>,
+    vdeshCircleLogo: <VdeshCircleLogo className="vdeshCircleIcon"/>,
+    star: <FaStar className="star"/>,
+    arrowLeft: <IoIosArrowRoundBack className="arrowLeft"/>,
+    arrowRight: <IoIosArrowRoundForward className="arrowRight"/>,
+    roundArrowLeft: <IoIosArrowDropleft className="roundArrowLeft"/>,
+    roundArrowRight: <IoIosArrowDropright className="roundArrowRight"/>,
+    studyIcon: <StudyIcon/>,
+    workIcon: <WorkIcon/>,
+    treatmentIcon: <TreatmentIcon/>,
+    visaIcon: <VisaIcon/>,
+    aboutIcon: <IoIosInformationCircleOutline/>,
+    testimonialIcon: <TestimonialIcon/>,
 
 
     
@@ -42,10 +61,10 @@ export const icons = {
 
 
 export const topHeaderMenuItems = {
-    studyIcon: <studyIcon/>,
+    studyIcon: <StudyIcon/>,
     workIcon: <WorkIcon/>,
     treatmentIcon: <TreatmentIcon/>,
     visaIcon: <VisaIcon/>,
-    aboutIcon: <AboutIcon/>,
+    aboutIcon: <IoIosInformationCircleOutline/>,
     testimonialIcon: <TestimonialIcon/>,
 }

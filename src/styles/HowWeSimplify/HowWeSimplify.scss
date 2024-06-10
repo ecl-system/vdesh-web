@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .app_main{
+        .howWeSimplify_main_section {
+            @apply flex justify-center items-center mb-[150px];
+
+            .bannerImageBlock {
+                @apply w-[970px] h-[480px] relative;
+            }
+        }
+    }
+}
+

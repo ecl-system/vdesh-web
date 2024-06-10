@@ -26,7 +26,10 @@ const BannerMain = () => {
                     {bannerMainMenuItems?.slice(0, 4).map((item, index) => (
                         <div className="singleSegment" key={item?.id} onClick={() => {}}>
                             <div className="childSegment1">
-                                <p>{toCapitalizeFirstLetterAmongWords(item?.content)}</p>
+                                <p>
+                                    <span className='icon'>{item?.icon}</span>
+                                    {toCapitalizeFirstLetterAmongWords(item?.content)}
+                                </p>
                             </div>
                             <div className="childSegment2">{icons?.upRightArrow}</div>
                         </div>

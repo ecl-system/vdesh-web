@@ -18,6 +18,7 @@ const StudyAbroad = () => {
             <div className='row1_height rightBlock'>
                 <div className='titleBlock'>
                     <p>
+                        <span className='icon'>{icons?.studyIcon}</span>
                         Study Abroad
                     </p>
                 </div>

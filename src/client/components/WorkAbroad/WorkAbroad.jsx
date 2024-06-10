@@ -13,7 +13,10 @@ const WorkAbroad = () => {
             {/* left */}
             <div className="row1_height leftBlock">
                 <div className="titleBlock">
-                    <p>Work Abroad</p>
+                    <p>
+                        <span className='icon'>{icons?.workIcon}</span>
+                        Work Abroad
+                    </p>
                 </div>
 
                 <div className="contentBlock">

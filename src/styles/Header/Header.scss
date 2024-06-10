@@ -20,7 +20,11 @@
                     & ul {
                         @apply flex justify-center items-center;
                         & > li {
-                            @apply list-none no-underline px-4 py-1 hover:cursor-pointer;
+                            @apply list-none no-underline px-4 py-1 hover:cursor-pointer flex justify-center items-center;
+
+                            .icon{
+                                @apply mr-2;
+                            }
                         }
 
                         & > li:not(:last-child) {

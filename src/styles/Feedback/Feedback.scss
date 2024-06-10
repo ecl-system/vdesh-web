@@ -2,28 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer components {
     .app_main {
         .feedback_main_section {
-            @apply mb-[150px] ml-[150px] h-[750px] border relative;
+            @apply mb-[150px] ml-[150px] h-[750px] relative;
 
-            .feedbackContainer {
-                @apply absolute bottom-0;
+            .titleBlock {
+                @apply absolute top-0 left-0;
+            }
 
-                .blocks{
-                    @apply flex justify-center items-center;
+            .imageBlock {
+                @apply absolute left-0 bottom-[15%] z-10;
 
-                    .imageBlock{
-                        @apply w-[500px] h-[375px] border ;
+                .testimonialImage {
+                    @apply relative w-[520px] h-[400px];
+
+                    img {
+                        @apply h-full w-full;
                     }
-    
-                    .bannerBlock{
-                        @apply w-[905px] h-[560px] border ;
+
+                    .vdeshLogo {
+                        @apply border w-[80px] h-[80px] rounded-full absolute top-[20px] right-[-40px] flex justify-center items-center;
+                    }
+                }
+            }
+
+            .sliderArrow {
+                @apply h-14 w-40 absolute bottom-0 left-[3%] flex justify-between items-center;
+
+                .arrowLeft {
+                    @apply w-[70px] h-[70px] text-[#CBCBD1];
+                }
+
+                .arrowRight {
+                    @apply w-[80px] h-[80px];
+                }
+            }
+
+            .bannerBlock {
+                @apply w-[75%] h-[560px] absolute bottom-0 right-0 bg-[--bg-feedback-centent] flex justify-start items-center;
+
+                .contentBlock {
+                    @apply w-[535px] h-[365px] ml-[200px] relative;
+
+                    .title {
+                        .starBlock {
+                            @apply flex justify-start items-center mt-2;
+
+                            span {
+                                @apply mx-1 text-[--bg-star];
+                            }
+                        }
+                    }
+
+                    .comments {
+                        @apply mt-8;
+                    }
+
+                    .name {
+                        @apply absolute left-0 bottom-0;
+                        p {
+                            @apply text-[14px];
+                        }
                     }
                 }
             }
         }
     }
 }
-

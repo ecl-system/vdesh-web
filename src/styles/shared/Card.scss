@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .app_main {
+        .singleCard {
+            @apply flex flex-col w-[372px] h-[403px] space-y-5;
+
+            .imageBlock {
+                @apply relative w-full h-[278px] p-1 overflow-hidden;
+            }
+
+            .imageTitle {
+                p {
+                    @apply text-[23px];
+                }
+            }
+
+            .date {
+                @apply text-[14px];
+            }
+        }
+    }
+}

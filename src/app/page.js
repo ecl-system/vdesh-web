@@ -1,5 +1,6 @@
 import AboutCompany from "@/client/components/AboutCompany/AboutCompany";
 import BannerMain from "@/client/components/BannerMain/BannerMain";
+import News from "@/client/components/blogs/News/News";
 import ClientSuccess from "@/client/components/ClientSuccess/ClientSuccess";
 import Feedback from "@/client/components/Feedback/Feedback";
 import Footer from "@/client/components/Footer/Footer";
@@ -41,7 +42,7 @@ export default function Home() {
 
       <HowVdeshDifferent/>
 
-      {/* <HowWeSimplify/> */}
+      <HowWeSimplify/>
 
       <HorizontalSection/>
 
@@ -50,6 +51,8 @@ export default function Home() {
       <AboutCompany/>
 
       <Feedback/>
+
+      <News/>
 
       {/* footer */}
       <Footer/>

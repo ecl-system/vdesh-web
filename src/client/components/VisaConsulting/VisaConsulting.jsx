@@ -13,7 +13,10 @@ const VisaConsulting = () => {
             {/* left */}
             <div className="row1_height leftBlock">
                 <div className="titleBlock">
-                    <p>Visa Consulting</p>
+                    <p>
+                        <span className='icon'>{icons?.visaIcon}</span>
+                        Visa Consulting
+                    </p>
                 </div>
 
                 <div className="contentBlock">
