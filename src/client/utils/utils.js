@@ -147,6 +147,32 @@ export const whyChooseUsPoints = [
 ]
 
 
+export const aboutCompanySegments = [
+    {
+        id: 1,
+        bgColor: '#8DE4FF',
+        title: 'How We Simplify',
+        description: 'We are local. We can help you throughout the 5 years of study here in Bangladesh.'
+    },
+    {
+        id: 2,
+        bgColor: '#E18DFF',
+        title: 'How We Simplify',
+        description: 'We are local. We can help you throughout the 5 years of study here in Bangladesh.'
+    },
+    {
+        id: 3,
+        bgColor: '#8DFBAD',
+        title: 'How We Simplify',
+        description: 'We are local. We can help you throughout the 5 years of study here in Bangladesh.'
+    },
+    {
+        id: 4,
+        bgColor: '#FF8DDF',
+        title: 'How We Simplify',
+        description: 'We are local. We can help you throughout the 5 years of study here in Bangladesh.'
+    },
+]
 
 export const footerMenuItems1 = [
     {
@@ -187,3 +213,4 @@ export const footerMenuItems2 = [
     }
 
 ]
+

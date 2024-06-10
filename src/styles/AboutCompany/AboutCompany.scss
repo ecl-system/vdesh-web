@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .app_main {
+        .aboutCompany_main_section {
+            @apply mb-[150px];
+
+            h2 {
+                @apply text-center;
+            }
+
+            .aboutContainer {
+                @apply w-full h-[700px] grid grid-cols-2 gap-x-6; 
+
+                .leftBlock {
+                    @apply relative;
+                    .imageBlock {
+                        @apply w-[470px] h-[651px] absolute right-0 bottom-0;
+                    }
+                }
+
+                .rightBlock{
+                    @apply flex flex-col relative;
+
+                    .contentBlock {
+                        @apply w-full h-[651px] absolute right-0 bottom-0;
+    
+                        p {
+                            @apply text-justify;
+                        }
+                    }
+
+                    .segmentBlock {
+                        @apply grid grid-cols-2 place-content-between gap-8 mt-12;
+
+                        .singleSegment {
+                            @apply w-[273px] h-[205px] flex flex-col justify-start;
+
+                            .iconBlock{
+                                @apply w-[70px] h-[70px] flex justify-center items-center;
+                            }
+
+                            h6{
+                                @apply my-[15px]
+                            }
+                        }
+                    }
+                }
+
+                
+            }
+        }
+    }
+}
+
+
+

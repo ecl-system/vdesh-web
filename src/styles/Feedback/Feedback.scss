@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .app_main {
+        .feedback_main_section {
+            @apply mb-[150px] ml-[150px] h-[750px] border relative;
+
+            .feedbackContainer {
+                @apply absolute bottom-0;
+
+                .blocks{
+                    @apply flex justify-center items-center;
+
+                    .imageBlock{
+                        @apply w-[500px] h-[375px] border ;
+                    }
+    
+                    .bannerBlock{
+                        @apply w-[905px] h-[560px] border ;
+                    }
+                }
+            }
+        }
+    }
+}
+

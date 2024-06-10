@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .app_main {
+        .clientSuccess_main_section {
+            @apply grid grid-cols-2 place-items-center mb-[150px];
+
+            .textBlock {
+                @apply w-[530px] h-[230px];
+            }
+
+            .imageBlock {
+                @apply w-[550px] h-[350px] relative;
+            }
+
+            .textBlock > h2 {
+                @apply relative;
+            }
+
+            .textBlock > h2:last-child::before {
+                content: "";
+                @apply w-[370px] h-[17px] absolute bottom-2 bg-[#F84A94] block opacity-45;
+            }
+        }
+    }
+}
+

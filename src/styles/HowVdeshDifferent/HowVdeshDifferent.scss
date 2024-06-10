@@ -5,13 +5,47 @@
 @layer components {
     .app_main {
         .howVdeshDifferent_main_section {
-            @apply w-[970px] h-[948px] border mb-[150px];
+            @apply w-full h-[948px] mb-[150px];
 
             & h2 {
-                @apply mb-10;
+                @apply mb-10 text-center text-[--vdesh-font-color];
+            }
+
+            .booksArea {
+                @apply flex justify-center items-center space-x-4;
+
+                .page1, .page2 {
+                    @apply w-[470px] h-[822px] relative;
+
+                    & img {
+                        @apply w-full h-full;
+                    }
+
+                    .contentBlock{
+                        @apply absolute h-[36.25rem] max-w-[350px] top-[-32%] left-[-25%] transform translate-x-1/2 translate-y-1/2;
+
+                        & h4 {
+                            @apply text-center text-[--vdesh-font-color];
+                        }
+                    }
+
+                    .points {
+                        @apply mt-12;
+                        & p {
+                            @apply flex justify-start my-5 text-[--vdesh-font-color];
+
+                            & span {
+                                @apply inline-block mr-5;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
 }
+
+
+
 
 
