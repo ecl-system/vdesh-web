@@ -1,19 +1,19 @@
-import AboutCompany from "@/client/components/AboutCompany/AboutCompany";
-import BannerMain from "@/client/components/BannerMain/BannerMain";
-import News from "@/client/components/blogs/News/News";
-import ClientSuccess from "@/client/components/ClientSuccess/ClientSuccess";
-import Feedback from "@/client/components/Feedback/Feedback";
-import Footer from "@/client/components/Footer/Footer";
-import HeaderMain from "@/client/components/Header/HeaderMain";
-import HowVdeshDifferent from "@/client/components/HowVdeshDifferent/HowVdeshDifferent";
-import HowWeSimplify from "@/client/components/HowWeSimplify/HowWeSimplify";
-import HorizontalSection from "@/client/components/shared/HorizontalSection/HorizontalSection";
-import SharedImage from "@/client/components/shared/SharedImage";
-import StudyAbroad from "@/client/components/StudyAbroad.jsx/StudyAbroad";
-import TreatmentAbroad from "@/client/components/TreatmentAbroad/TreatmentAbroad";
-import VisaConsulting from "@/client/components/VisaConsulting/VisaConsulting";
-import WhyChooseUs from "@/client/components/WhyChooseUs/WhyChooseUs";
-import WorkAbroad from "@/client/components/WorkAbroad/WorkAbroad";
+import AboutCompany from "@/client/components/vdesh/AboutCompany/AboutCompany";
+import BannerMain from "@/client/components/vdesh/BannerMain/BannerMain";
+import News from "@/client/components/vdesh/blogs/News/News";
+import ClientSuccess from "@/client/components/vdesh/ClientSuccess/ClientSuccess";
+import Feedback from "@/client/components/vdesh/Feedback/Feedback";
+import Footer from "@/client/components/vdesh/Footer/Footer";
+import HeaderMain from "@/client/components/vdesh/Header/HeaderMain";
+import HowVdeshDifferent from "@/client/components/vdesh/HowVdeshDifferent/HowVdeshDifferent";
+import HowWeSimplify from "@/client/components/vdesh/HowWeSimplify/HowWeSimplify";
+import HorizontalSection from "@/client/components/vdesh/shared/HorizontalSection/HorizontalSection";
+import SharedImage from "@/client/components/vdesh/shared/SharedImage";
+import StudyAbroad from "@/client/components/vdesh/StudyAbroad.jsx/StudyAbroad";
+import TreatmentAbroad from "@/client/components/vdesh/TreatmentAbroad/TreatmentAbroad";
+import VisaConsulting from "@/client/components/vdesh/VisaConsulting/VisaConsulting";
+import WhyChooseUs from "@/client/components/vdesh/WhyChooseUs/WhyChooseUs";
+import WorkAbroad from "@/client/components/vdesh/WorkAbroad/WorkAbroad";
 import { centralizeImages } from "@/client/utils/centralizeImages";
 
 

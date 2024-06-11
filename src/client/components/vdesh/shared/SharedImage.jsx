@@ -1,6 +1,5 @@
 'use client'
 import Image from 'next/image'
-import React, { lazy } from 'react'
 
 const SharedImage = ({
     src,
@@ -27,7 +26,7 @@ const SharedImage = ({
                     loading={loading}
                     quality={quality}
                     className={className}
-                   style={style}
+                    style={style}
                     onClick={onClick}
                 />
             ) : (
